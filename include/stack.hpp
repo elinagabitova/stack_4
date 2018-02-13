@@ -1,6 +1,3 @@
-#ifndef STACK_HPP 
-#define STACK_HPP
-
 #include <iostream>
 #include <stdexcept>
 #include <algorithm>
@@ -143,4 +140,4 @@ void stack<T>::swap(stack<T>& other)
     	std::swap(array_size_, other.array_size_);
 	std::swap(count_, other.count_);
 }
-#endif
+
